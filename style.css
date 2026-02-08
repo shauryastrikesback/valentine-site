@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ffd6e7;
+}
+
+/* Hearts background */
+body::before {
+    content: "💖 💕 💗 💓 💞 💘";
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+}
+
+body::after {
+    content: "💖 💕 💗 💓 💞 💘";
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+h1 {
+    color: #d63384;
+}
+
+.gif {
+    width: 250px;
+    margin: 20px 0;
+}
+
+.photo {
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff4d88;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e6005c;
+}
+
+.details {
+    font-size: 20px;
+    color: #6a1b4d;
+}
